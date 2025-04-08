@@ -6,6 +6,7 @@ li{
     height: fit-content;
     transition: 1s;
 }
+
 li:hover{
     background-color: rgba(0, 0, 0, 0.2);
    
@@ -28,4 +29,9 @@ li:hover{
     font-family: "Bebas Neue", sans-serif;
  
   }
-  
+  /*share style */
+
+  .width370
+  {
+    width: 370;
+  }
