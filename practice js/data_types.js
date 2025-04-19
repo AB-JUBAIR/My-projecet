@@ -34,4 +34,10 @@ var total = first +second;
 console.log(total.toFixed(3));
 
 
+/** opetator  */
+total += 10; // sum sub dividign and multiplying  as like also
+console.log(total);
+
+
+
 
