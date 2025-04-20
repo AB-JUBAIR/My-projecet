@@ -26,13 +26,17 @@ num++ // num= num +1; /// num += 1;
 }
 console.log('-----------------------');
 
-// even number jor sonkka
+// even number jor sonkka if (num % 2 = 0)
 for (let index = 0; index <=20; index= index +2) {
     console.log(index);
 }
-// odd number  vijor sonkka
+// odd number  vijor sonkka if (num % 2 = 1)
 console.log('------------------');
 
 for (let index = 1; index <=20; index= index +2) {
     console.log(index);
 }
+
+///**
+// for loop diye incrimental or dicrimental for loop calaw
+//  */
