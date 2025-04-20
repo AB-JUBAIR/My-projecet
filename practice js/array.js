@@ -24,6 +24,29 @@ console.log(ages);
 ages.pop ();
 console.log(ages);
 
+//---------- array using as condition 
+
+if (frieds.includes('abul')) {
+    console.log('gelam');
+}
+else
+{
+    console.log('ghmaylam');
+    
+}
+// /--------- kon array te value ace kii na seta dekar jonno 
+console.log(frieds.includes('babul'));
+//----------Print the index number from array
+
+console.log(frieds.indexOf('babul'));
+
+/*
+friend.slice(1,5); // ------[ 1 teke 5 porjonto index number count korbe]
+
+
+array ki vabe join kore
+*/
+
 
 
 
