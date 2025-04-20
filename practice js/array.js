@@ -7,8 +7,23 @@ const frieds = ['abul', 'babul', 'cabul', 'kabu'];
  *
  */
 
-for (let i = 0; i < numbers.length; i++) 
-    {
-    const element = numbers[i];
-    console.log(element);
-}
+// for (let i = 0; i < numbers.length; i++) 
+//     {
+//     const element = numbers[i];
+//     console.log(element);
+// }
+
+
+// console.log( numbers);
+// ****************----------- push and pop or Pop operation -----****************
+
+const ages = [20];
+console.log(ages);
+ages.push (50);
+console.log(ages);
+ages.pop ();
+console.log(ages);
+
+
+
+
