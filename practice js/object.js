@@ -25,4 +25,9 @@ const age = 21;
  // bracker notation 
 
  console.log(subject['chapter']);
- 
+// how t find the object property or keys
+const keys = Object.keys(subject);
+ console.log(keys);
+ // 
+ const values  = Object.values(subject);
+ console.log(values);
