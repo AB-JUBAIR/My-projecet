@@ -31,3 +31,16 @@ const keys = Object.keys(subject);
  // 
  const values  = Object.values(subject);
  console.log(values);
+ 
+
+ for (const prop in subject) {
+   console.log(prop); // property print korbe
+console.log(subject[prop]); // values print korbe 
+
+   
+ }
+
+ for (const prop in subject) {
+    console.log(prop , ':', subject[prop]); // property print korbe
+  // values print korbe 
+  }

@@ -40,3 +40,10 @@ for (let index = 1; index <=20; index= index +2) {
 ///**
 // for loop diye incrimental or dicrimental for loop calaw
 //  */
+
+for (const key in object) {
+    if (Object.prototype.hasOwnProperty.call(object, key)) {
+        const element = object[key];
+        
+    }
+}
