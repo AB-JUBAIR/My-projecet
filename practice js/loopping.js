@@ -14,3 +14,9 @@ for (let index = 0; index < array.length; index++) {
 
 }
 
+array.reverse();
+let reverse = array.reverse();
+console.log(reverse);
+
+// unshift used for push from start 
+
