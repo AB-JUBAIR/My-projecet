@@ -28,3 +28,4 @@ add(45, 50) // call. the function
 const num1 = 5;
 const num2 = 10;
 add(num1, num2);
+
