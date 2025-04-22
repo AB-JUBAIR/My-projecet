@@ -1,7 +1,7 @@
 function BMI_calculator (weight, height)
 {
 
-    const BMI = weight / ((height*0.01)*(height*0.01));
+    const BMI = weight / ((height*0.01)*(height*0.01)); // BMI = weight (kg)/(height[m]^2)
     if (BMI < 18.5) {
         console.log('you are underweight', BMI.toFixed(2));
     }
