@@ -14,3 +14,5 @@ console.log(books);
 books.pop();
 console.log(books);
 
+
+books
