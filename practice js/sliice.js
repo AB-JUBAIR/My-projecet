@@ -24,9 +24,6 @@ console.log(fullname);
 const fullname2 = first.concat(' ').concat(last); // first naem and last name r maj khane white spacce add kora
 
 console.log(fullname2);
-
 console.log(fullname.includes('jubair'));
-
-
 
 
