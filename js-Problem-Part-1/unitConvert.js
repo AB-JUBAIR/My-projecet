@@ -10,6 +10,4 @@ function InchToFeet (inch)
 }
 
 const MyHeight = InchToFeet(50);
-
-
 console.log(MyHeight);
