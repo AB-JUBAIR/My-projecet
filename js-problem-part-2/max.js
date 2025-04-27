@@ -20,7 +20,7 @@ console.log(ultimatemax);
 
 const height = [65, 55,24,68,20, 250];
 
-let max = 0;
+let max = height[0];
 
 for (const item of height) {
     if (max < item ) {
