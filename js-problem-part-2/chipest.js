@@ -13,7 +13,7 @@ function getchepestphone(phones) {
     }
   }
   // console.log(phone);
-  return min;
+  return min.price;
 }
 const chep = getchepestphone(phones);
-console.log(chep);
+console.log('the chepest price is :', chep);
