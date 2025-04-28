@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dom</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1> Welcome to my DOM</h1>
-        <ul>
+        <ul id="name-list">
             <li>jamir</li>
             <li> kabir</li>
             <li>jabir</li>
         </ul>
     </header>
-    <main>
+    <main id="main-content">
         <section class="cls">
             <h1 id="fruits"> fruits title</h1>
             <ul>
@@ -27,10 +28,10 @@
     </main>
     <script src="js/dom.js"></script>
     <script>
-        const licollection = document.getElementsByTagName('li');
-        for (const li of licollection) {
-            console.log(li.innerText);
-        }
+        // const licollection = document.getElementsByTagName('li');
+        // for (const li of licollection) {
+        //     console.log(li.innerText);
+        // }
         
     //     const section = document.getElementsByClassName('cls');
     //   const html = section.innerHTML;
