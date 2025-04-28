@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+</head>
+<body>
+    <p> Dom er speceia event</p>
+    <button onclick="console.log('i am clicked');" title="this is a button"> click me </button>
+    <!-- option 1 -->
+    <button onclick="document.body.style.backgroundColor = 'red' "> make red</button>
+<button onclick="makeYellow()"> make bg yellow</button>
+<button id="purple"> make purple</button>
+</body>
+
+<script src="event.js"></script>
+<script>
+
+    // option 2
+    function makeYellow()
+    {
+        document.body.style.backgroundColor = 'yellow';
+    }
+</script>
+</html>
