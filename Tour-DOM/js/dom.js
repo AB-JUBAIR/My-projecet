@@ -22,6 +22,20 @@ li2.innerText = 'kacchi';
 ul.appendChild(li2);
 section.appendChild(ul);
 maintcotainer.append(section);
+
+
+
+const sectionDess = document.createElement('section');
+
+sectionDess.innerHTML = `
+<h1 id="dress"> Dress Section </h1>
+            <ul>
+                <li>Shirt</li>
+                <li> T- Shirt</li>
+                <li>Pant</li>
+            </ul>
+`
+maintcotainer.appendChild(sectionDess);
 // ---------- style sectijon --------------
 console.log('Js is connected');
 
