@@ -6,6 +6,9 @@
     <title>js dom summary</title>
 </head>
 <body>
+    <p id="input-displa" >sample name</p>
+    <input id="input-field" type="text">
+    <button id="update"> update</button>
     <h1>final dom event handler </h1>
     <h3 id="handler">defult text </h3>
     <button onclick="changeText()"> change defult text</button>
@@ -26,6 +29,16 @@ function changeText() {
         text.style.fontSize = '2rem';
         text.style.fontWeight = 'bold'; 
     });
+    document.getElementById('update').addEventListener('click', function(){
+const inputField = document.getElementById('input-field');
+const inoputText = inputField.value;
+
+const p =document.getElementById('input-displa');
+p.innerText = inoputText;
+inputField.value = 'Rohim';
+    })
+
+
 
     </script>
 </body>
