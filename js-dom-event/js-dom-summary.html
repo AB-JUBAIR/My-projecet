@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>js dom summary</title>
 </head>
-<body>
+<body> <div id="text-container"></div>
+    <div id="">
+        <textarea name="newText" id="textarea" cols="20" rows="30" placeholder="write some thing "></textarea> <br>
+        <button id="save-btn">Save</button>
+    </div>
     <p id="input-displa" >sample name</p>
     <input id="input-field" type="text">
     <button id="update"> update</button>
@@ -35,11 +39,23 @@ const inoputText = inputField.value;
 
 const p =document.getElementById('input-displa');
 p.innerText = inoputText;
-inputField.value = 'Rohim';
+inputField.value = 'updated';
     })
 
+// step 1 
+document.getElementById('save-btn').addEventListener('click', function(){
+    const textConrtainer = document.getElementById('textarea');
+    const textIs = textConrtainer.value;
 
-
-    </script>
+    // step 2 
+    const textHold = document.getElementById('text-container');
+    const p = document.createElement('p');
+    p.innerText = textIs;
+    textConrtainer.value  = '';
+    textHold.appendChild(p);
+    
+    
+})
+</script>
 </body>
 </html>
