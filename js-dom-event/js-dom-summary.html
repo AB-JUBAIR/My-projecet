@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js dom summary</title>
+</head>
+<body>
+    <h1>final dom event handler </h1>
+    <h3 id="handler">defult text </h3>
+    <button onclick="changeText()"> change defult text</button>
+    <button id="addListener"> change defult text</button>
+    <script>
+function changeText() {
+    const text = document.getElementById('handler');
+    text.innerText = 'this is a new text';
+    text.style.color = 'red';
+    text.style.fontSize = '2rem';
+    text.style.fontWeight = 'bold';  }
+
+    const text = document.getElementById('addListener');
+    text.addEventListener('click', function() {
+        const text = document.getElementById('handler');
+        text.innerText = 'this is another new text';
+        text.style.color = 'red';
+        text.style.fontSize = '2rem';
+        text.style.fontWeight = 'bold'; 
+    });
+
+    </script>
+</body>
+</html>
