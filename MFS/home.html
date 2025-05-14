@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>hoem page</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet"
+            type="text/css" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    </head>
+    <body>
+        <main class="flex justify-center">
+            <div class="mockup-phone border-primary">
+                <div class="mockup-phone-camera"></div>
+                <div class="mockup-phone-display bg-white">
+                    <!-- start display section -->
+                    <!-- available balace section -->
+                    <div
+                        class="stats shadow pt-5 flex justify-around px-5 mt-7">
+                        <div class="m-2">
+                            <div class="stat-title">Total </div>
+                            <div class="stat-value">89,400</div>
+                            <div class="stat-desc">available balace</div>
+                        </div>
+                        <div class=" flex items-center">
+                            <button class="btn btn-outline btn-primary ">Log
+                                out</button>
+                        </div>
+                    </div>
+                    <!-- cash in and cash out button  -->
+                    <div class="divider"></div>
+                    <div class="flex justify-around px-7">
+                        <button class="btn btn-outline btn-primary ">Pay In
+                        </button>
+                        <button class="btn btn-outline btn-primary ">Pay
+                            Out</button>
+
+                    </div>
+
+                    <!-- form sectiono -->
+                     <div class="divider"></div>
+                    <div class="hero-content">
+                        <div
+                            class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                            <div class="card-body">
+                                <fieldset class="fieldset">
+                                    <label class="label">Amount</label>
+                                    <input id="Amount" type="text"
+                                        class="input"
+                                        placeholder="Enter Amount" />
+                                    <label class="label">4 Digit Pin
+                                    </label>
+                                    <input id="pin-number" type="password"
+                                        class="input"
+                                        placeholder="Enter 4 Digit Pin" />
+                                    
+                                    <button id="btn-login"
+                                        class="btn btn-primary mt-4 "> Add Money</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- End display section -->
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
