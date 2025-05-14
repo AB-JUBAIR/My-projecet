@@ -1,3 +1,16 @@
+//  addMoney and cashout but working 
+document.getElementById('addMoney-btn').addEventListener('click', function(){
+    document.getElementById('add-section').classList.remove('hidden')
+    document.getElementById('out-section').classList.add('hidden')
+});
+document.getElementById('outMoney').addEventListener('click', function(){
+    document.getElementById('add-section').classList.add('hidden')
+    document.getElementById('out-section').classList.remove('hidden')
+});
+
+
+
+
 // stpe 1 select add Money btn
 
 document.getElementById('btn-addmoney').addEventListener('click', function(event){
