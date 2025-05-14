@@ -21,9 +21,9 @@
        console.log(items);
        
         for (const item of items) {
-            item.addEventListener('click', function(){
-                console.log(item);
+            item.addEventListener('click', function(event){
                 
+                event.target.parentNode.removeChild(event.target);
             })
         }
     </script>
