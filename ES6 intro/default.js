@@ -17,8 +17,8 @@ const last = 'paki'
 const fullname =first + ' '+ last ;
 console.log(fullname);
 
-// backtic ``
-
+// backtick `` use for multiline string ans single line string 
+// template string 
 const math = `The sum of ${toaata}`
 
 console.log(math);
