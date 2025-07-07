@@ -29,4 +29,3 @@ Animal.prototype.sound = function(){
    return `${this.speacies} make sound`;
 }
 let dog = new Animal ("Dog");
-console.log(dog.soun
