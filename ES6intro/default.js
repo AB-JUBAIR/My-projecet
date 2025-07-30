@@ -1,6 +1,4 @@
 
-//  defualt--------- > if value is not provided ,, take this action
-
 function add(num1 = 1, num2 = 5){
  const result = num1 + num2;
  console.log( num1 , num2, result);
@@ -22,3 +20,12 @@ console.log(fullname);
 const math = `The sum of ${toaata}`
 
 console.log(math);
+export function  add(a, b){
+    return a+b;
+}
+export function subtract (a,b) {
+    return a-b;
+}
+export default function multipies(a, b) {
+    return a*b;
+}
