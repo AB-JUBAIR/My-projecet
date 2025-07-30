@@ -4,18 +4,34 @@ function fetchData() {
 // -------------
 
         setTimeout(() => {
-            let sucess = true;
-            if (sucess)
+            let success = false;
+            if (success)
             {
-                resolve("Data fecthed successfully");
+                resolve("Data fetched successfully");
             }
             else
             {
-                reject ("Error fecthed data")
+                reject ("Error fetched data")
             }
         }, 3000);
     })
 }
- let response = fetchData()
- console.log(response);
+//  let response = fetchData()
+//  console.log(response);
+
+fetchData()
+.then((data) => console.log(data))
+.catch((error) => console.error(error))
+
+
+ async function getData() {
+ try {
+     let response = await fetchData();
+      console.log(response);
+
+ } catch (error) {
+    console.log(error);
+    
+ }   
+ }
  
