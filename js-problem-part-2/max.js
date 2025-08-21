@@ -19,7 +19,7 @@ console.log(ultimatemax);
 
 
 const height = [65, 55,24,68,20, 250];
- const arrMax = Math.max(...height)
+ const arrMax = Math.max(...height) // spreat operator
  console.log(arrMax);
  
 let max = height[0];
@@ -31,3 +31,12 @@ for (const item of height) {
 }
 console.log('the max in this array',max);
 // use spread operator to copy
+const friends= [22, 52, 65]
+const fridn2 = friends;
+fridn2.push(120)
+console.log(friends);
+const boondho = [...friends]
+boondho.push(1424) // spreat operator dite copy kore abar push korle ager taar jaygy push hobe na noton vabe kore {eter ste extra element add kora jabe}
+
+console.log(boondho);
+console.log(friends);
