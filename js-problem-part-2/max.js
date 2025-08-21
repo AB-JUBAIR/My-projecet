@@ -19,7 +19,9 @@ console.log(ultimatemax);
 
 
 const height = [65, 55,24,68,20, 250];
-
+ const arrMax = Math.max(...height)
+ console.log(arrMax);
+ 
 let max = height[0];
 
 for (const item of height) {
@@ -28,3 +30,4 @@ for (const item of height) {
     }
 }
 console.log('the max in this array',max);
+// use spread operator to copy

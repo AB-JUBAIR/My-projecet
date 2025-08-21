@@ -1,0 +1,10 @@
+function* numberGenerator() { // genetor function 
+    yield 1
+    yield 2
+    yield 3
+    yield 4
+}
+let gen = numberGenerator();
+console.log(gen.next().value); // in this case .next() is iterator
+console.log(gen.next().value);
+console.log(gen.next().value);
