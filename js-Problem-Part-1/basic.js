@@ -1,4 +1,4 @@
-/**
+/** primitive data types
  * variable --- 
  * nummber and string 
  * boolean 
@@ -32,5 +32,5 @@ non-primitive
  * }
  * 
  * 
- * 
+ *  typeof Variablel_name;
  */
