@@ -33,4 +33,16 @@ non-primitive
  * 
  * 
  *  typeof Variablel_name;
+ * ==  for just value check 
+ * === for types and value check
  */
+
+const  first = 2;
+const second = 2 ;
+if (first == second) {
+    console.log(' eual');
+    
+}else{
+    console.log('nort equal');
+    
+}
