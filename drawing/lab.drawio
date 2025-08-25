@@ -1,0 +1,262 @@
+<mxfile host="65bd71144e">
+    <diagram id="9smqmwv33LxtIhg9qZVc" name="Page-1">
+        <mxGraphModel dx="291" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="10" value="&lt;span&gt;Login Details&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" edge="1">
+                    <mxGeometry x="0.3789" y="-10" relative="1" as="geometry">
+                        <mxPoint x="270" y="749.9897948556638" as="sourcePoint"/>
+                        <mxPoint x="168" y="821" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="270" y="821"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Registration Details&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="27" edge="1">
+                    <mxGeometry x="0.0614" y="12" relative="1" as="geometry">
+                        <mxPoint x="480" y="750" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="&lt;h2&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Registration&lt;/font&gt;&lt;/h2&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="650" width="100" height="103" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Registration Details" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" target="3" edge="1">
+                    <mxGeometry x="0.1666" y="-10" relative="1" as="geometry">
+                        <mxPoint x="80.00000000000011" y="789.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="200.0000000000016" y="699.9999999999998" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="80" y="700"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-31" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Login Details&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="138" y="845" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="150" y="845"/>
+                            <mxPoint x="150" y="900"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="&lt;h2&gt;Member&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="48" y="780" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="File&amp;nbsp;&lt;div&gt;Confirmation&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="27" target="13" edge="1">
+                    <mxGeometry x="-0.3103" relative="1" as="geometry">
+                        <mxPoint x="485" y="839.9999999999995" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="460" y="780"/>
+                            <mxPoint x="460" y="840"/>
+                            <mxPoint x="485" y="840"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Confirmation&lt;/font&gt;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="13" target="23" edge="1">
+                    <mxGeometry x="0.3652" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="450" y="1090"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="&lt;h2&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Login&lt;/font&gt;&amp;nbsp;&lt;/h2&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="880" width="90" height="93" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 0);&quot;&gt;Confirmation&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" edge="1">
+                    <mxGeometry x="0.0233" relative="1" as="geometry">
+                        <mxPoint x="440" y="940.02" as="sourcePoint"/>
+                        <mxPoint x="108" y="845" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="Login Details" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="23" target="13" edge="1">
+                    <mxGeometry x="-0.3636" y="-10" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-33" value="Request&amp;nbsp;&lt;div&gt;for report&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="23" target="SI5ctflp-tbKyU-h9R37-32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;h2&gt;&lt;b&gt;Admin&lt;/b&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="1050" width="100" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="(Store)" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=center;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+                    <mxGeometry x="430" y="730" width="110" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="29" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Login Details" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="30" vertex="1" connectable="0">
+                    <mxGeometry x="0.0394" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="Admin" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=center;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+                    <mxGeometry x="590" y="960" width="110" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-34" value="Report" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="SI5ctflp-tbKyU-h9R37-32" target="23" edge="1">
+                    <mxGeometry x="-0.5415" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="770" y="1090"/>
+                        </Array>
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-32" value="Report" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="870" width="80" height="83" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-36" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Login Details&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="SI5ctflp-tbKyU-h9R37-35" target="SI5ctflp-tbKyU-h9R37-32" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="670" y="850"/>
+                            <mxPoint x="650" y="850"/>
+                            <mxPoint x="650" y="910"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-40" value="Book&lt;div&gt;details&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="SI5ctflp-tbKyU-h9R37-35" target="SI5ctflp-tbKyU-h9R37-39" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="660" y="750"/>
+                            <mxPoint x="660" y="750"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-35" value="&lt;h3&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Book&lt;/font&gt;&lt;/h3&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=center;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+                    <mxGeometry x="630" y="790" width="130" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-44" value="Aeknowledgement" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="SI5ctflp-tbKyU-h9R37-39" target="SI5ctflp-tbKyU-h9R37-43" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-39" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Loan&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;spacingLeft=3;" parent="1" vertex="1">
+                    <mxGeometry x="655" y="650" width="80" height="83" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-41" value="Loan Status" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.923;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="SI5ctflp-tbKyU-h9R37-39" target="SI5ctflp-tbKyU-h9R37-35" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="750" y="710"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-45" value="Loan Request" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="SI5ctflp-tbKyU-h9R37-43" target="SI5ctflp-tbKyU-h9R37-39" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-43" value="Member" style="whiteSpace=wrap;html=1;dashed=0;spacingLeft=3;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="580" width="120" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-48" value="Member&amp;nbsp;&lt;div&gt;login&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;detail&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.864;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="13" target="27" edge="1">
+                    <mxGeometry x="0.3658" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="510" y="850"/>
+                            <mxPoint x="540" y="850"/>
+                            <mxPoint x="540" y="790"/>
+                            <mxPoint x="525" y="790"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-49" value="&lt;h1&gt;Level 1&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="573" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-50" value="&lt;h1&gt;Level 0&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="10" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-53" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;b style=&quot;forced-color-adjust: none; color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Login Details&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="SI5ctflp-tbKyU-h9R37-51" target="SI5ctflp-tbKyU-h9R37-52" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-54" value="Confirmation" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="SI5ctflp-tbKyU-h9R37-51" target="SI5ctflp-tbKyU-h9R37-52" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="150" y="260"/>
+                            <mxPoint x="150" y="150"/>
+                            <mxPoint x="153" y="150"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-56" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Confirmation&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SI5ctflp-tbKyU-h9R37-51" target="SI5ctflp-tbKyU-h9R37-52" edge="1">
+                    <mxGeometry x="-0.2215" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="375" y="370"/>
+                            <mxPoint x="30" y="370"/>
+                            <mxPoint x="30" y="110"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-58" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Confirmation&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="SI5ctflp-tbKyU-h9R37-51" target="SI5ctflp-tbKyU-h9R37-57" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-60" value="Reports" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="SI5ctflp-tbKyU-h9R37-51" target="SI5ctflp-tbKyU-h9R37-57" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="380" y="540"/>
+                            <mxPoint x="660" y="540"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-51" value="&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Library&lt;br&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;Management&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;b&gt; system&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="302.19" y="210" width="145.63" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-62" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Registration Details&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="SI5ctflp-tbKyU-h9R37-52" target="SI5ctflp-tbKyU-h9R37-51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-63" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;Login Details&lt;/b&gt;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="SI5ctflp-tbKyU-h9R37-52" target="SI5ctflp-tbKyU-h9R37-51" edge="1">
+                    <mxGeometry x="-0.4147" y="-10" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="340" y="140"/>
+                        </Array>
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-52" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 16px;&quot;&gt;Member&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="80" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-55" value="Report for loan" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.191;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="SI5ctflp-tbKyU-h9R37-52" target="SI5ctflp-tbKyU-h9R37-51" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="90" y="330"/>
+                            <mxPoint x="330" y="330"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-61" value="Login&amp;nbsp;&lt;div&gt;Details&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="SI5ctflp-tbKyU-h9R37-57" target="SI5ctflp-tbKyU-h9R37-51" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="620" y="330"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-57" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Admin&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="599.995" y="450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-59" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Request&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;for report&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="SI5ctflp-tbKyU-h9R37-57" target="SI5ctflp-tbKyU-h9R37-51" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="410" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="480"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="SI5ctflp-tbKyU-h9R37-64" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Aeknowledgement&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="338" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="-300" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="8XmKCIq297TmVxKddwF4" name="Page-2">
+        <mxGraphModel dx="499" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
