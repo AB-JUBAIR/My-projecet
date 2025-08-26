@@ -22,11 +22,22 @@ const loadCategoriesId = (id) => {
    const API = `https://openapi.programming-hero.com/api/phero-tube/category/${id}`;
   fetch(API)
     .then((res) => res.json())
-    .then((data) => displayVideos(data.category))
-    .catch((error) => console.error(error));
- 
-    
-    
+    .then((data) => {
+// call the function for remove the active btn
+removeActiveBtn()
+      const activeButton = document.getElementById(`btn-${id}`);
+      // for active button bg color
+activeButton.classList.add('active')
+      displayVideos(data.category)})
+    .catch((error) => console.error(error));  
+}
+
+// function for remove active btn
+const removeActiveBtn = () => {
+  const catBtn = document.getElementsByClassName('catagory-btn')
+  for (let btn of catBtn) {
+    btn.classList.remove('active')
+  }
 }
 // ----------- API Object --------
 const cardDemo = {
@@ -52,14 +63,21 @@ const cardDemo = {
 
 const displayVideos = (videos) => {
 
-
   const videosContainer = document.getElementById("videos");
     videosContainer.innerHTML = ""; // for divide the videos categories
-
+    
 //  conditon for no videos
 if (videos.length == 0) {
-    videosContainer.innerHTML = " NO Videos Found"
+  videosContainer.classList.remove('grid')
+    videosContainer.innerHTML = ` 
+    <div class="min-h-[300px] w-full flex flex-col gap-5 justify-center items-center">
+    <img src="../PH-Tube/Icon.png" alt="">
+    <p class = "text-gray-500 text-center font-bold"> No Videos Found </p>
+</div>`
     return;
+}
+else {
+  videosContainer.classList.add('grid')
 }
 
   videos.forEach((video) => {
@@ -99,6 +117,8 @@ ${video.authors[0].verified === true
 
 
 
+
+
 // display---Categories-----button
 const displayCategories = (categoris) => {
   const categoriesContainer = document.getElementById("categoriesContainer");
@@ -106,12 +126,17 @@ const displayCategories = (categoris) => {
     console.log(item);
     const buttonContainer = document.createElement("div");
 buttonContainer.innerHTML = `
-<button class="btn" onclick="loadCategoriesId(${item.category_id})">
+<button id="btn-${item.category_id}" class="btn catagory-btn" onclick="loadCategoriesId(${item.category_id})">
 ${item.category}
 </button>`
     categoriesContainer.append(buttonContainer);
   });
 };
+
+
+
+
+
 
 // ------------- fucntion call 
 loadCategories();
